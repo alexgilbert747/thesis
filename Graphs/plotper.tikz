@@ -1,0 +1,62 @@
+% This file was created by matplotlib2tikz v0.6.18.
+\begin{tikzpicture}
+
+\definecolor{color0}{rgb}{0.890196078431372,0.466666666666667,0.76078431372549}
+\definecolor{color1}{rgb}{0.580392156862745,0.403921568627451,0.741176470588235}
+
+\begin{axis}[
+every y tick label/.style = {
+rotate=0
+},
+height=8cm,
+tick align=outside,
+width=13.69785cm,
+x grid style={white!69.01960784313725!black},
+xlabel={Number of tasks},
+xmin=1, xmax=4,
+xtick pos=left,
+y grid style={white!69.01960784313725!black},
+ylabel={Mean test accuracy},
+ymin=0, ymax=1,
+ytick pos=both
+]
+\addplot [line width=0.29pt, color0, forget plot]
+table [row sep=\\]{%
+1	0.85 \\
+5	0.85 \\
+};
+\addplot [line width=0.29pt, color1, forget plot]
+table [row sep=\\]{%
+1	0.85 \\
+2	0.769915 \\
+3	0.7108 \\
+4	0.656 \\
+};
+\addplot [line width=0.29pt, color1, dashed, forget plot]
+table [row sep=\\]{%
+1	0.85 \\
+2	0.73266 \\
+3	0.655 \\
+4	0.582 \\
+};
+\node at (axis cs:4,0.85)[
+  scale=0.5,
+  anchor= east,
+  text=black,
+  rotate=0.0
+]{ Single-task performance};
+\node at (axis cs:4,0.656)[
+  scale=0.5,
+  anchor= east,
+  text=black,
+  rotate=0.0
+]{ Critical};
+\node at (axis cs:4,0.582)[
+  scale=0.5,
+  anchor= east,
+  text=black,
+  rotate=0.0
+]{ Reference};
+\end{axis}
+
+\end{tikzpicture}

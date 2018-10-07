@@ -1,0 +1,27 @@
+% This file was created by matplotlib2tikz v0.6.18.
+\begin{tikzpicture}
+
+\definecolor{color0}{rgb}{0.12156862745098,0.466666666666667,0.705882352941177}
+\definecolor{color1}{rgb}{1,0.498039215686275,0.0549019607843137}
+
+\begin{axis}[
+every y tick label/.style = {
+rotate=0
+},
+height=8cm,
+tick align=outside,
+width=13.69785cm,
+x grid style={white!69.01960784313725!black},
+xlabel={Task},
+xmajorticks=false,
+xmin=0.5, xmax=2.5,
+y grid style={white!69.01960784313725!black},
+ylabel={Test accuracy},
+ymin=0, ymax=1,
+ytick pos=both
+]
+\draw[fill=color0,draw opacity=0] (axis cs:0.5,0) rectangle (axis cs:1.5,0.729326912760735);
+\draw[fill=color1,draw opacity=0] (axis cs:1.5,0) rectangle (axis cs:2.5,0.753349280357361);
+\end{axis}
+
+\end{tikzpicture}

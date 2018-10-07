@@ -1,0 +1,34 @@
+% This file was created by matplotlib2tikz v0.6.18.
+\begin{tikzpicture}
+
+\definecolor{color0}{rgb}{0.12156862745098,0.466666666666667,0.705882352941177}
+\definecolor{color1}{rgb}{1,0.498039215686275,0.0549019607843137}
+\definecolor{color2}{rgb}{0.172549019607843,0.627450980392157,0.172549019607843}
+\definecolor{color3}{rgb}{0.83921568627451,0.152941176470588,0.156862745098039}
+
+\begin{axis}[
+every y tick label/.style = {
+rotate=0
+},
+height=8cm,
+tick align=outside,
+width=13.69785cm,
+x grid style={white!69.01960784313725!black},
+xmajorticks=false,
+xmin=0.5, xmax=4.5,
+y grid style={white!69.01960784313725!black},
+ylabel={Test accuracy},
+ymin=0, ymax=1,
+ytick pos=both
+]
+\draw[fill=color0,draw opacity=0,fill opacity=0.3] (axis cs:0.5,0) rectangle (axis cs:1.5,0.847836542129517);
+\draw[fill=color1,draw opacity=0,fill opacity=0.3] (axis cs:1.5,0) rectangle (axis cs:2.5,0.790264418721199);
+\draw[fill=color2,draw opacity=0,fill opacity=0.3] (axis cs:2.5,0) rectangle (axis cs:3.5,0.707177037000656);
+\draw[fill=color3,draw opacity=0,fill opacity=0.3] (axis cs:3.5,0) rectangle (axis cs:4.5,0.560071086883545);
+\draw[fill=color0,draw opacity=0] (axis cs:0.5,0) rectangle (axis cs:1.5,0.798677885532379);
+\draw[fill=color1,draw opacity=0] (axis cs:1.5,0) rectangle (axis cs:2.5,0.571634609997272);
+\draw[fill=color2,draw opacity=0] (axis cs:2.5,0) rectangle (axis cs:3.5,0.693301433324814);
+\draw[fill=color3,draw opacity=0] (axis cs:3.5,0) rectangle (axis cs:4.5,0.560071086883545);
+\end{axis}
+
+\end{tikzpicture}
