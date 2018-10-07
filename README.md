@@ -6,6 +6,8 @@ README FOR THE 'LIFELONG MACHINE LEARNING INSPIRED BY NEOCORTICAL CRITICAL-PERIO
 There are EXPERIMENT A CODE FILES, EXPERIMENT B CODE FILES, and FOLDERS of results etc. provided in this repository.
 
 # EXPERIMENT A CODE FILES:
+-----------------------------
+Main files for training the deep neural networks:
 
 "pets_data2.py" imports images for a sequence of 2 binary classification tasks (user specified cat species)
 
@@ -18,6 +20,8 @@ There are EXPERIMENT A CODE FILES, EXPERIMENT B CODE FILES, and FOLDERS of resul
 "experiment1m.py" trains a reference network for a sequence of 4 binary classification tasks.
 
 "experiment1bm.py" trains a critical-period network for a sequence of 4 binary classification tasks.
+
+-----------------------------
 
 "visualise.py" defines functions for visualising hidden activations.
 
