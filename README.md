@@ -8,9 +8,13 @@ There are EXPERIMENT A CODE FILES, EXPERIMENT B CODE FILES, and FOLDERS of resul
 EXPERIMENT A CODE FILES:
 
 "pets_data2.py" imports images for a sequence of 2 binary classification tasks (user specified cat species)
+
 "pets_data4.py" imports images for a sequence of 4 binary classification tasks (user specified cat species)
+
 "experiment1.py" trains a reference network for a sequence of 2 binary classification tasks.
+
 "experiment1b.py" trains a critical-period network for a sequence of 2 binary classification tasks.
+
 "experiment1m.py" trains a reference network for a sequence of 4 binary classification tasks.
 "experiment1bm.py" trains a critical-period network for a sequence of 4 binary classification tasks.
 "visualise.py" defines functions for visualising hidden activations.
