@@ -5,7 +5,7 @@ README FOR THE 'LIFELONG MACHINE LEARNING INSPIRED BY NEOCORTICAL CRITICAL-PERIO
 
 There are EXPERIMENT A CODE FILES, EXPERIMENT B CODE FILES, and FOLDERS of results etc. provided in this repository.
 
-EXPERIMENT A CODE FILES:
+# EXPERIMENT A CODE FILES:
 
 "pets_data2.py" imports images for a sequence of 2 binary classification tasks (user specified cat species)
 
@@ -46,7 +46,7 @@ EXPERIMENT A CODE FILES:
 "barA7.py" plots bar charts for the test accuracies per task for A7.
 
 
-EXPERIMENT B CODE FILES:
+# EXPERIMENT B CODE FILES:
 
 "auxiliary.py" are auxiliary functions, e.g. activation functions.
 
@@ -66,7 +66,7 @@ EXPERIMENT B CODE FILES:
 
 "experiment4.py" trains the 4-layer SARSA agent.
 
-FOLDERS:
+# FOLDERS:
 
 - Folder "Experiments" contains text files of all results obtained. These can be loaded into NumPy arrays using:
 
