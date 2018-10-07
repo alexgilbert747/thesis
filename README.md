@@ -8,10 +8,10 @@ This repository has EXPERIMENT A CODE FILES, EXPERIMENT B CODE FILES, and FOLDER
 Language:
 -Python 3
 Python libraries:
--numpy 1.14.0
--matplotlib 2.1.0
--tensorflow 1.4.0 (tensorflow-gpu version)
--matplotlib2tikz 0.6.18 (this is for exporting graphs to latex)
+  -numpy 1.14.0
+  -matplotlib 2.1.0
+  -tensorflow 1.4.0 (tensorflow-gpu version)
+  -matplotlib2tikz 0.6.18 (this is for exporting graphs to latex)
 
 
 # EXPERIMENT A CODE FILES:
