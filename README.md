@@ -7,6 +7,7 @@ This repository has EXPERIMENT A CODE FILES, EXPERIMENT B CODE FILES, and FOLDER
 
 Language:
 - Python 3
+
 Python libraries:
   - numpy 1.14.0
   - matplotlib 2.1.0
