@@ -6,7 +6,7 @@ README FOR THE 'LIFELONG MACHINE LEARNING INSPIRED BY NEOCORTICAL CRITICAL-PERIO
 This repository has EXPERIMENT A CODE FILES, EXPERIMENT B CODE FILES, and FOLDERS of results etc.
 
 Language:
--Python 3
+- Python 3
 Python libraries:
   - numpy 1.14.0
   - matplotlib 2.1.0
