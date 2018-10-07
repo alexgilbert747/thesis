@@ -16,34 +16,54 @@ EXPERIMENT A CODE FILES:
 "experiment1b.py" trains a critical-period network for a sequence of 2 binary classification tasks.
 
 "experiment1m.py" trains a reference network for a sequence of 4 binary classification tasks.
+
 "experiment1bm.py" trains a critical-period network for a sequence of 4 binary classification tasks.
+
 "visualise.py" defines functions for visualising hidden activations.
+
 "experiment1_visualisations.py" trains and then produces visualisations for a reference network for a sequence of 2 binary classification tasks.
 
 "plot_import_data" imports all key results from the 'Experiments' folder and allows for plotting the graphs using:
+
 "plotA0.py" plots the test accuracies for A0
+
 "plotA1.py" plots the test accuracies for A1
+
 "plotA2.py" plots the test accuracies for A2
+
 "plotA4.py" plots the test accuracies for A4
+
 "plotA5.py" plots the test accuracies for A5
+
 "plotA7.py" plots the test accuracies for A7
+
 "plotper.py" plots the A7 mean test accuracies for increasing numbers of tasks.
+
 "barA4.py" plots bar charts for the test accuracies per task for A4.
+
 "barA5.py" plots bar charts for the test accuracies per task for A5.
+
 "barA7.py" plots bar charts for the test accuracies per task for A7.
 
 
 EXPERIMENT B CODE FILES:
 
 "auxiliary.py" are auxiliary functions, e.g. activation functions.
+
 "analysis.py" are analysis functions.
 
 "environment.py" defines the noughts-and-crosses environment.
+
 "agent_tabular.py" defines a tabular SARSA agent.
+
 "agent_neural.py" defines a 2-layer SARSA agent.
+
 "agent_neural2.py" defines a 3-layer SARSA agent.
+
 "experiment2.py" trains the tabular SARSA agent.
+
 "experiment3.py" trains the 2-layer SARSA agent.
+
 "experiment4.py" trains the 4-layer SARSA agent.
 
 FOLDERS:
